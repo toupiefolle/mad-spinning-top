@@ -1,0 +1,7 @@
+{% for note in site.notes %}
+  {% if note.type == "blog" %}
+## <a href="{{ note.url }}">{{ note.title }}</a>
+{{ note.date | date_to_string:  "ordinal" }} / {{ note.author }}
+{{ note.content }}
+  {% endif %}
+{% endfor %}
