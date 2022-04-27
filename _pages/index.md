@@ -9,4 +9,8 @@ permalink: /
 
 {% include notes_graph.html %}
 
-{% include blog-roll.html %}
+{% for note in site.notes reversed %}
+{% if note.type == "blog" %}
+{% include blog-post.html %}
+{% endif %}
+{% endfor %}
