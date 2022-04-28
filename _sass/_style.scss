@@ -151,3 +151,22 @@ code {
     gap: 10px;
 }
 
+/* 
+  Extract an excerpt
+*/
+
+.excerpt :nth-child( n + 6 ),
+.excerpt :nth-child( n + 6 ) > * {
+    // Remove all elements beyond the $exerpt-value
+    display: none;
+}
+
+.excerpt p:nth-child( -n + 6 ) > *,
+.excerpt .revert,
+.excerpt .revert > * {
+    // Since removing all elements beyond $exerpt-values causes nested
+    // elements within the initial paragraphs to also disapear (eg
+    // more than $excerpt-length em's or a's ), manually unset
+    // anything we did to them.
+    display: revert;
+}

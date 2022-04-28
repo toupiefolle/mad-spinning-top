@@ -8,8 +8,9 @@
   </div>
 
   <div id="notes-entry-container">
-    <content>
-      {{ note.content }}
+    <content class="excerpt">
+	{{ note.content }}
+	<p class="revert"><a class="bold" href="{{ note.url }}">Read more...</a></p>
     </content>
 
     <side style="font-size: 0.9em">
