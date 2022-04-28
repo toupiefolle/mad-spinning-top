@@ -16,6 +16,9 @@ permalink: /
 {% include notes_graph.html %}
 
 <hr />
+
+<h2 class="blogroll">Blog</h2>
+
 {% for note in site.notes reversed %}
 {% if note.type == "blog" %}
 {% include blog-post.html %}

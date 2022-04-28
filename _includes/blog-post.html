@@ -1,8 +1,8 @@
 <article>
   <div>
-      <h3><a class="internal-link" href="{{ note.url }}">{{ note.title }}</a></h3>
+      <h1><a class="internal-link" href="{{ note.url }}">{{ note.title }}</a></h1>
       <time datetime="{{ note.date | date_to_xmlschema }}">
-	  {{ note.date | date: "%-d %B %Y" }}
+	  {{ note.date | date_to_string:  "ordinal" }}
       </time>
       <address class="author">By <a rel="author" href="">{{ note.author }}</a></address> 
   </div>
