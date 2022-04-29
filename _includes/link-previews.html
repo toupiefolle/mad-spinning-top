@@ -66,22 +66,24 @@
     var top = window.pageYOffset || document.documentElement.scrollTop
 
     if (event.target.host === window.location.host) {
-      iframe.src = event.target.href
-      iframe.onload = function() {
-        tooltipContentHtml = ''
-        tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
-        tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
+	  iframe.src = event.target.href
+	  iframe.onload = function() {
+              tooltipContentHtml = ''
+              tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+              tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
 
-        // Insert backlinks into tooltip
-        const backlinks = iframe.contentWindow.document.querySelectorAll('.backlink-box a')
-        tooltipContentHtml += "<ul>"
-        backlinks.forEach(backlink => {
-          const backlinkHREF = backlink.href
-          if (backlinkHREF !== window.location.href) {
-	    tooltipContentHtml += "<li>" + backlink.outerHTML + "</li>"
-          }
+              // Insert backlinks into tooltip
+              const backlinks = iframe.contentWindow.document.querySelectorAll('.backlink-box a')
+	      const elemContext = elem.closest(".bloglink").attributes.target.value
+
+              tooltipContentHtml += "<ul>"
+              backlinks.forEach(backlink => {
+		  const backlinkHref = backlink.href // URI of backlink
+		  if ( backlinkHref !== window.location.href && !backlinkHref.endsWith(elemContext) ) {
+		      tooltipContentHtml += "<li>" + backlink.outerHTML + "</li>"
+		  }
         })
-       tooltipContentHtml += "</ul>"
+        tooltipContentHtml += "</ul>"
 
         tooltipContent.innerHTML = tooltipContentHtml
 

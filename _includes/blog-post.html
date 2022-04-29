@@ -1,18 +1,16 @@
-<article>
-  <div>
-      <h1><a class="internal-link" href="{{ note.url }}">{{ note.title }}</a></h1>
-      <time datetime="{{ note.date | date_to_xmlschema }}">
-	  {{ note.date | date_to_string:  "ordinal" }}
-      </time>
-      <address class="author">By <a rel="author" href="">{{ note.author }}</a></address> 
-  </div>
+<article class="bloglink" target="{{ note.url }}">
+    <h3><a class="internal-link" href="{{ note.url }}">{{ note.title }}</a></h3>
+    <time datetime="{{ note.date | date_to_xmlschema }}">
+	{{ note.date | date_to_string:  "ordinal" }}
+    </time>
+    <address class="author">By <a rel="author" href="">{{ note.author }}</a></address> 
 
-  <div id="notes-entry-container">
-    <content class="excerpt">
-	{{ note.content }}
-	<p class="revert"><a class="bold" href="{{ note.url }}">Read more...</a></p>
-    </content>
+    <div id="notes-entry-container">
+	<content class="excerpt">
+	    {{ note.content }}
+	    <p class="revert"><a class="bold" href="{{ note.url }}">Read more...</a></p>
+	</content>
 
-  </div>
+    </div>
 </article>
 
