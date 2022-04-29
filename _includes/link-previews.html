@@ -49,32 +49,49 @@
   function showTooltip(event) {
     var elem = event.target;
     var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
-    var top = window.pageYOffset || document.documentElement.scrollTop
+    var top = window.pageYOffset || document.documentElement.scrollTop;
+    const showAllBacklinks = elem.classList.contains("showallbacklinks");
 
-    if (event.target.host === window.location.host) {
+      if (event.target.host === window.location.host) {
 	  iframe.src = event.target.href
 	  iframe.onload = function() {
-              tooltipContentHtml = ''
-              tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+              tooltipContentHtml = '';
+	      tooltipContentHtml += '<span class="bold">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</span>';
+
+	      /// Let's start adding backlinks into tooltip
+
+	      // Store backlinks
+	      const backlinks = iframe.contentWindow.document.querySelectorAll('.backlink-box a');
+
+	      if ( backlinks.length <= 1 && !showAllBacklinks ) {
+		  /* If there's only one (or somehow less) backlinks
+		     then that means the only link to this item is the
+		     one it' currently on */
+		  tooltipContentHtml += ' is not referenced elsewhere</p>';
+	      } else {
+		  /* We don't want to include backlinks to current
+		  post, so find out what the parent post is. */
+		  const elemContext = elem.closest(".bloglink")?.attributes.target.value ?? "n/a";
+
+		  tooltipContentHtml += ' is also referenced in:</p>'
+		  tooltipContentHtml += "<ul>";
+		  backlinks.forEach(backlink => {
+		      const backlinkHref = backlink.href // URI of backlink
+		      if ( backlinkHref !== window.location.href && !backlinkHref.endsWith(elemContext) ) {
+			  tooltipContentHtml += "<li>" + backlink.outerHTML + "</li>";
+		      }
+		  })
+
+		  tooltipContentHtml += "</ul>";
+	      }
+
+	      // Insert content into tooltip
               tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
 
-              // Insert backlinks into tooltip
-              const backlinks = iframe.contentWindow.document.querySelectorAll('.backlink-box a');
-	      const elemContext = elem.closest(".bloglink")?.attributes.target.value ?? "n/a";
+              tooltipContent.innerHTML = tooltipContentHtml
 
-              tooltipContentHtml += "<ul>"
-              backlinks.forEach(backlink => {
-		  const backlinkHref = backlink.href // URI of backlink
-		  if ( backlinkHref !== window.location.href && !backlinkHref.endsWith(elemContext) ) {
-		      tooltipContentHtml += "<li>" + backlink.outerHTML + "</li>";
-		  }
-              })
-        tooltipContentHtml += "</ul>"
-
-        tooltipContent.innerHTML = tooltipContentHtml
-
-        tooltipWrapper.style.display = 'block';
-        setTimeout(function() {
+              tooltipWrapper.style.display = 'block';
+              setTimeout(function() {
           tooltipWrapper.style.opacity = 1;
         }, 1)
       }
