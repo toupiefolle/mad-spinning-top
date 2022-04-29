@@ -56,7 +56,7 @@
 	  iframe.src = event.target.href
 	  iframe.onload = function() {
               tooltipContentHtml = '';
-	      tooltipContentHtml += '<span class="bold">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</span>';
+	      tooltipContentHtml += '<p><span class="bold">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</span>';
 
 	      /// Let's start adding backlinks into tooltip
 
@@ -67,7 +67,7 @@
 		  /* If there's only one (or somehow less) backlinks
 		     then that means the only link to this item is the
 		     one it' currently on */
-		  tooltipContentHtml += ' is not referenced elsewhere</p>';
+		  tooltipContentHtml += ' is only referenced in this post.</p>';
 	      } else {
 		  /* We don't want to include backlinks to current
 		  post, so find out what the parent post is. */
