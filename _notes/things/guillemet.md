@@ -1,4 +1,4 @@
 ---
-title: "François Fourquet"
+title: "Philippe Guillemet"
 type: person
 ---
