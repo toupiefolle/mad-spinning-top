@@ -73,16 +73,16 @@
               tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
 
               // Insert backlinks into tooltip
-              const backlinks = iframe.contentWindow.document.querySelectorAll('.backlink-box a')
-	      const elemContext = elem.closest(".bloglink").attributes.target.value
+              const backlinks = iframe.contentWindow.document.querySelectorAll('.backlink-box a');
+	      const elemContext = elem.closest(".bloglink")?.attributes.target.value ?? "n/a";
 
               tooltipContentHtml += "<ul>"
               backlinks.forEach(backlink => {
 		  const backlinkHref = backlink.href // URI of backlink
 		  if ( backlinkHref !== window.location.href && !backlinkHref.endsWith(elemContext) ) {
-		      tooltipContentHtml += "<li>" + backlink.outerHTML + "</li>"
+		      tooltipContentHtml += "<li>" + backlink.outerHTML + "</li>";
 		  }
-        })
+              })
         tooltipContentHtml += "</ul>"
 
         tooltipContent.innerHTML = tooltipContentHtml
