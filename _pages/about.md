@@ -84,6 +84,9 @@ experimenting with collective practices of research. Their long-term
 project is to write about what they call the Social Life of Concepts in
 the case of post-war French thought.
 
+In April 2022, they were joined by a research assistant, the brilliant
+Dr Daniel Nemenyi, who is leading the website design as a research tool.
+
 **Dr. Susana Caló** is a researcher in post-war histories of psychiatry,
 semiotics, and social movements. She has published and presented widely
 on the Institutional Psychotherapy movement, with a focus on linking
@@ -102,37 +105,38 @@ Programming'](https://www.rca.ac.uk/research-innovation/projects/cerfi-militant-
 [here](https://www.rca.ac.uk/research-innovation/projects/cerfi-militant-analysis-collective-equipment-and-institutional-programming/))
 recovering the overlooked conceptual and practical legacy of the
 research cooperative CERFI (1967-1987) founded by Félix Guattari. This
-involved in-depth interviews and conversations with CERFI's members and
-collaborators, interviews with groups who have been influenced by the
-legacy of CERFI, translations and extensive analysis of newly found
-textual and visual archival material. The project received support from
-the Graham Foundation, Royal College of Art and *Het* Nieuwe Instituut.
+involved in-depth interviews and conversations with CERFI's members
+and collaborators, interviews with groups who have been influenced by
+the legacy of CERFI, translations and extensive analysis of newly
+found textual and visual archival material. The project received
+support from the Graham Foundation, Royal College of Art and *Het*
+Nieuwe Instituut.
 
 She is currently working on the book's project titled 'CERFI. Militant
 Analysis and Institutional Programming', forthcoming with Minor
 Compositions.
 
 **Professor Patrick ffrench** is Professor of French and former Vice
-Dean (Research) at King's College. He wrote his phd on the French
-literary and theoretical journal Tel Quel, in 1993, under the
+Dean (Research) at King's College. He wrote his phd on the French
+literary and theoretical journal Tel Quel, in 1993, under the
 supervision of Professor Annette Lavers at the University College
 London. As a British Academy Postdoctoral Fellow at University College
 he worked on Georges Bataille and 20th-century French intellectual
 history, before moving to King's College London in 1999. The four books
-that have resulted from this work are: The Time of Theory: A History of
-Tel Quel (1996); The Cut: reading Bataille's Story of the Eye (2000);
-After Bataille: Sacrifice, Exposure, Community (2007) and, co-edited and
-translated with Roland-François Lack, The Tel Quel Reader
+that have resulted from this work are: *The Time of Theory: A History of
+Tel Quel* (1996); *The Cut: reading Bataille's Story of the Eye* (2000);
+*After Bataille: Sacrifice, Exposure, Community* (2007) and, co-edited and
+translated with Roland-François Lack, *The Tel Quel Reader*
 (2003).  Patrick's research ranges across French literature, philosophy
 and culture of the 20th-century, with a particular focus on critical
 theory, literature and film. He has written on Maurice Blanchot, Roland
 Barthes, Jean-Luc Nancy, Gilles Deleuze and Felix Guattari. More
 recently his work is about film philosophy and film theory; his two most
 recent books focus on resonances of a cinematographic imaginary in
-Proust's A la recherche du temps perdu (Thinking Cinema with Proust,
-Legenda, 2018) and cinema in the work of Roland Barthes (Roland Barthes
-and Film, Bloomsbury, 2019).
+Proust's A la recherche du temps perdu (*Thinking Cinema with Proust*,
+Legenda, 2018) and cinema in the work of Roland Barthes (*Roland Barthes
+and Film*, Bloomsbury, 2019).
 
-Introduce Daniel
+**Daniel**...
 
-**Contact:** latoupiefolle.org\@gmail.com
+**Contact:** latoupiefolle.org@gmail.com
