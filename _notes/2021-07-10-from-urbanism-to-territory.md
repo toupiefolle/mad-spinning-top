@@ -2,7 +2,6 @@
 date: 2021-07-09
 title: "From urbanism to territory"
 type: blog
-author: tbc
 ---
 
 Part 2 of Chapter 2 sees the CERFI group working through texts by
