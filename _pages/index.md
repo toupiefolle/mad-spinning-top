@@ -21,6 +21,8 @@ See our [about page]({% link _pages/about.md %})
 
 <h2 class="blogroll">Blog</h2>
 
+{% include blog-toc.html %}
+
 {% for note in site.notes reversed %}
 {% if note.type == "blog" %}
 {% include blog-post.html %}
