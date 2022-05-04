@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: plain
 title: default
 id: home
 permalink: /
@@ -11,14 +11,6 @@ permalink: /
 
 See our [about page]({% link _pages/about.md %})
 
-<hr />
+Enter our [blog]({% link blog.md %}) or [people]({% link _pages/people.md %})
 
-<h2 class="blogroll">Blog</h2>
-
-{% include blog-toc.html %}
-
-{% for note in site.notes reversed %}
-{% if note.type == "blog" %}
-{% include blog-post.html %}
-{% endif %}
-{% endfor %}
+{% include notes_graph.html %}

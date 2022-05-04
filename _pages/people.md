@@ -18,5 +18,3 @@ permalink: /people
     {% endif %}
     {% endfor %}
 </ul>
-
-{% include notes_graph.html %}
