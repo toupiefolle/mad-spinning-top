@@ -11,12 +11,6 @@ permalink: /
 
 See our [about page]({% link _pages/about.md %})
 
-<h2>People</h2>
-
-{% include people.html %}
-
-{% include notes_graph.html %}
-
 <hr />
 
 <h2 class="blogroll">Blog</h2>

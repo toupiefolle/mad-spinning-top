@@ -1,7 +1,0 @@
-<p>
-    {% for note in site.notes %}
-    {% if note.type == 'person' %}
-    <a class="internal-link showallbacklinks" href="{{ note.url }}">{{ note.title }}</a>
-    {% endif %}
-    {% endfor %}
-</p>
