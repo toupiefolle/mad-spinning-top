@@ -1,6 +1,6 @@
 ---
-date: 2021-07-09
-title: "From urbanism to territory"
+date: 2021-07-10
+title: "From Urbanism to Territory"
 type: blog
 ---
 
