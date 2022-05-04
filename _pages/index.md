@@ -11,6 +11,6 @@ permalink: /
 
 See our [about page]({% link _pages/about.md %})
 
-Enter our [blog]({% link blog.md %}) or [people]({% link _pages/people.md %})
+Enter via our [blog]({% link blog.md %}) or list of [people]({% link _pages/people.md %}).
 
 {% include notes_graph.html %}
