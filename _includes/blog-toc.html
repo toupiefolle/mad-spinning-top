@@ -1,7 +1,7 @@
 <ol>
 {% for note in site.notes %}
 {% if note.type == 'blog' %}
-    <li><a href="{{ note.url }}">{{ note.date | date_to_long_string: "ordinal" }}: {{ note.title }}</a></li>
+    <li><a href="{{ note.url }}">{{ note.title }}</a>  ({{ note.date | date_to_long_string: "ordinal" }})</li>
 {% endif %}
 {% endfor %}
 </ol>
