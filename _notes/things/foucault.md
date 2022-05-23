@@ -1,4 +1,4 @@
 ---
 title: "Michel Foucault"
-type: person
+type: "person"
 ---

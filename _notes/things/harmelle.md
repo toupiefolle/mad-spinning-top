@@ -1,4 +1,4 @@
 ---
-title: Claude Harmelle
-type: person
+title: "Claude Harmelle"
+type: "person"
 ---

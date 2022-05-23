@@ -1,4 +1,4 @@
 ---
 title: "Michel Rostain"
-type: person
+type: "person"
 ---

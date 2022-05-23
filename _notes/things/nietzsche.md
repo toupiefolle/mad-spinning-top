@@ -1,4 +1,4 @@
 ---
-title: Friedrich Nietzsche
-type: person
+title: "Friedrich Nietzsche"
+type: "person"
 ---

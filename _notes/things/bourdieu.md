@@ -1,4 +1,4 @@
 ---
-title: Pierre Bourdieu
-type: person
+title: "Pierre Bourdieu"
+type: "person"
 ---

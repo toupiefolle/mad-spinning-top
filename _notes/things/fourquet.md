@@ -1,4 +1,4 @@
 ---
 title: "François Fourquet"
-type: person
---- 
+type: "person"
+---

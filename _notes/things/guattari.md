@@ -1,5 +1,4 @@
 ---
 title: "Félix Guattari"
-type: person
+type: "person"
 ---
-

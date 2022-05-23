@@ -1,4 +1,4 @@
 ---
 title: "Christian Hennion"
-type: person
+type: "person"
 ---

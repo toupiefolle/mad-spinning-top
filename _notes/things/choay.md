@@ -1,4 +1,4 @@
 ---
 title: "Françoise Choay"
-type: person
+type: "person"
 ---

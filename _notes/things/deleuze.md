@@ -1,4 +1,4 @@
 ---
 title: "Gilles Deleuze"
-type: person
+type: "person"
 ---

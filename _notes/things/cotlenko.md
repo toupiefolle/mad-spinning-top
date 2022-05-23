@@ -1,4 +1,4 @@
 ---
-title: Ariane Cotlenko
-type: person
+title: "Ariane Cotlenko"
+type: "person"
 ---

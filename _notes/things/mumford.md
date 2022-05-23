@@ -1,4 +1,4 @@
 ---
-title: Lewis Mumford
-type: person
+title: "Lewis Mumford"
+type: "person"
 ---

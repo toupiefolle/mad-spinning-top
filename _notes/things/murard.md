@@ -1,4 +1,4 @@
 ---
 title: "Lion Murard"
-type: person
+type: "person"
 ---

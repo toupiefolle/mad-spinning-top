@@ -1,4 +1,4 @@
 ---
 title: "Anne Querrien"
-type: person
+type: "person"
 ---

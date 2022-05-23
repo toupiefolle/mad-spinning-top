@@ -1,4 +1,4 @@
 ---
 title: "Stuart Elden"
-type: person
+type: "person"
 ---

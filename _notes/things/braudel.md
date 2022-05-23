@@ -1,4 +1,4 @@
 ---
-title: Fernand Braudel
-type: person
+title: "Fernand Braudel"
+type: "person"
 ---
