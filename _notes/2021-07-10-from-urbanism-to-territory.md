@@ -80,9 +80,9 @@ Begins with 'Le territoire despotique', and again the proximity with
 AO Part 3, with which it shares common references ([[Wittfogel]],
 [[Mumford]], [[Braudel]]) is evident. But there is also a strong
 presence of the idea of power or will to power which brings forward
-the Nietzsche-Foucault angle. NB. That Foucault's *cours* 71-73 was
-*Leçons sur la volonté de savoir*. Should open a separate dossier on
-that.
+the [[Nietzsche]]-[[Foucault]] angle. NB. That Foucault's *cours*
+'71-73 was *Leçons sur la volonté de savoir*. Should open a separate
+dossier on that.
 
 I've created a separate dossier on Nietzsche which is now quite
 substantial (thus far). This occupied the intervening period up to the

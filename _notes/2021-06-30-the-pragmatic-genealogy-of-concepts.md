@@ -103,13 +103,13 @@ of Names\].
 
 ### Named as contributors in the Preface to _Recherches_ 13
 
-- [[Gilles Châtelet]]
+- [[Chatelet|Gilles Châtelet]]
 
 - [[Laurent Dispot]]
 
 - [[Alain Fabre]]
 
-- [[François Fourquet]]
+- [[Fourquet|François Fourquet]]
 
 - [[Philippe Guillemet]]
 
@@ -135,55 +135,55 @@ of Names\].
 
 ### Other names are mentioned in the 'Interventions' and the discussions:
 
-Anne mentions
+Anne mentions:
 
-- Felix (GUATTARI)
+- [[Guattari|Felix (GUATTARI)]]
 
-- Gilles Deleuze
+- [[Gilles Deleuze]]
 
-- Hervé (MAURY)
+- [[Hervé Maury|Hervé (MAURY)]]
 
-- Lion (MURARD)
+- [[Lion Murard|Lion (MURARD)]]
 
-- Marie Thérèse (VERNET-STRAGIOTTI)
+- [[Vernet-Stragiotti|Marie Thérèse (VERNET-STRAGIOTTI)]]
 
-- François (LÉVY)
+- [[Lévy|François (LÉVY)]]
 
-- Colette (JOLY)
+- [[Colette Joly|Colette (JOLY)]]
 
-- Françoise (1) mentions:
+Françoise (1) mentions:
 
-- Anne (QUERRIEN)
+- [[Anne Querrien|Anne (QUERRIEN)]]
 
 - Thomas ?
 
-- Liane (MOZÈRE)
+- [[Liane Mozère|Liane (MOZÈRE)]]
 
-- Nicole (LINHART?)
+- [[Nicole Linhart|Nicole (LINHART?)]]
 
 - Robert (LINHART?)
 
 - Nicole P
 
-- Hervé (MAURY)
+- [[Hervé Maury|Hervé (MAURY)]]
 
-- Ariane (COTLENKO)
+- [[Ariane Cotlenko|Ariane (COTLENKO)]]
 
-- Prisca BACHELET
+- [[Prisca Bachelet|Prisca BACHELET]]
 
-- Michel (ROSTAIN)
+- [[Michel Rostain|Michel (ROSTAIN)]]
 
-- Francois (FOURQUET)
+- [[Fourquet|François (FOURQUET)]]
 
-- Georges (PRÉLI)
+- [[Georges Préli|Georges (PRÉLI)]]
 
-- Christian (HENNION)
+- [[Christian Hennion|Christian (HENNION)]]
 
-- Philippe (GUILLEMET)
+- [[Philippe Guillemet|Philippe (GUILLEMET)]]
 
-- Francoise (2): mentions:
+Francoise (2): mentions:
 
-- Geneviève (AUBERT?)
+- [[Geneviève Aubert|Geneviève (AUBERT?)]]
 
 - Michel (ROSTAIN?),
 
@@ -199,15 +199,15 @@ Anne mentions
 
 - Colette (JOLY?),
 
-- Claude (HARMELLE? Or ROUAULT?)
+- Claude ([[Claude Harmelle|HARMELLE]]? Or [[Claude Rouault|ROUAULT]]?)
 
 - Christian (HENNION?),
 
-- Gilles (CHATELET?),
+- [[Chatelet|Gilles (CHATELET?)]],
 
 - Ariane (COTLENKO?)
 
-- ANNE (2) mentions:
+ANNE (2) mentions:
 
 - Marie Therese (VERNET-STRAGIOTTI)
 
@@ -215,13 +215,13 @@ Anne mentions
 
 - Lion (MURARD)
 
-- Francoise (LÉVY)
+- [[Francoise Lévy|Francoise (LÉVY)]]
 
-- Christian (HENNION)
+- [[Christian Hennion|Christian (HENNION)]]
 
-- Alain (FABRE)
+- [[Alain Fabre|Alain (FABRE)]]
 
-- Marie Therese (1) mentions:
+Marie Therese (1) mentions:
 
 - Lion (MURARD)
 
@@ -229,9 +229,9 @@ Anne mentions
 
 - Alain (l'autre Alain) ?
 
-- Gilles (CHÂTELET)
+- [[Chatelet|Gilles (CHÂTELET)]]
 
-- Marie Therese (2) mentions
+Marie Therese (2) mentions
 
 - Francois (FOURQUET)
 
@@ -249,7 +249,7 @@ Anne mentions
 
 - Anne (QUERRIEN)
 
-- Colette (JOLY)
+- [[Colette Joly|Colette (JOLY)]]
 
 - Marie Therese (3) mentions:
 
@@ -262,7 +262,7 @@ Anne mentions
 - Lion (MURARD)
 
 Reading the interviews in Morford, and Dosse, confirms that the 'mafia'
-or 'noyau dur' of CERFI was Fourquet, Murard, Maury, Mozère, Rostain,
+or '*noyau dur*' of CERFI was Fourquet, Murard, Maury, Mozère, Rostain,
 and Anne Querrien, although the latter was often more in the role of
 intercessor between the two tendencies in the group -- Fourquet, Rostain
 and Murard who sought independence from Guattari, and Mozère, Maury who
@@ -283,9 +283,10 @@ In more detail:
 
 - Chapter 1 -- 'La ville-ordinateur' ('redigé en Septembre 1971')
 
-  - Intervention militante -- Anne
+  - Intervention militante -- [[Anne Querrien|Anne]]
 
-  - Discussion -- Guattari, Fourquet, Foucault (discussions of May-September 1972)
+  - Discussion -- [[Guattari]], [[Fourquet]], [[Foucault]]
+    (discussions of May-September 1972)
 
 - Chapter 2 -- La Ville-métaphore ('redigé en novembre 1972')
 
@@ -297,15 +298,15 @@ In more detail:
 
 - Chapter 4 -- Formations des équipments collectifs (undated)
 
-  - Discussion: Guattari, Fourquet, Querrien
+  - Discussion: Guattari, Fourquet, [[Anne Querrien|Querrien]]
 
-  - Interventions militantes: Anne,Marie-Thérèse
+  - Interventions militantes: Anne, [[Marie-Thérèse Vernet-Stragiotti|Marie-Thérèse]]
 
 - Chapter 5 -- Le Discours du Plan
 
   - Discussion -- Deleuze, Guattari, Foucault,
 
-  - Intervention militante -- Marie-Thérèse
+  - Intervention militante -- [[Marie-Thérèse]]
 
 - Chapter 6 -- Economie politique sans famille
 

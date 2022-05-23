@@ -25,7 +25,7 @@ and in particular the third part 'Sauvage, barbares, civilisés'.
 The starting point for Chapter 1 is the anthology of writings on
 urbanism collected by [[Françoise Choay]] (1965).[^1] If the picture
 that emerges from the latter is the opposing tendencies of the
-'functionalist-rational' city as developed by Le Corbusier in the
+'functionalist-rational' city as developed by [[Le Corbusier]] in the
 'Charter of Athens'[^2] and the 'culturalist' tendency embodied by
 [[Lewis Mumford]] and [[Henri Lefebvre]], among others \[see images below\],
 the CERFI team seek to displace this by addressing its epistemological
@@ -97,11 +97,11 @@ writing and inscription, straight out of AO.
 
 Various bibliographic researches around this identify a 'first
 synthesis' of the report on collective equipment (Fontenay-sous-bois,
-CERFI, 1973), which Stuart Elden has in his possession (as reported on
+CERFI, 1973), which [[Stuart Elden]] has in his possession (as reported on
 his [Progressive Geographies
 blog](https://progressivegeographies.com/2015/11/25/books-received-recherches-foucault-fourquet-shakespeare-vasudevan-whatmore/)).
 The authors include the usual suspects (Fourquet, Maury, [[Mozère]],
-[[Querrien]], [[Murart]] (sic.) but also [[Christian Hennion]] (see
+[[Querrien]], [[Murard|Murart]] (sic.) but also [[Christian Hennion]] (see
 later). Elden's account of the first Foucault dialogue in [*Foucault:*
 *The Birth of
 Power*](https://politybooks.com/foucault-the-birth-of-power/) (Polity,
@@ -147,9 +147,9 @@ in parallel to Issue 13 and its related publications.
 2002, [http://www.sitemagazine.net/issues/2\_2002](http://www.sitemagazine.net/issues/2_2002);
 online architecture-theory periodical which includes 'CERFI: and
 Introduction'; Anne Querrien, 'Four Remarks on CERFI; François
-Fourquet, 'History of CERFI'; Sven-Olov Wallenstein, 'CERFI, Desire,
+Fourquet, 'History of CERFI'; [[Sven-Olov Wallenstein]], 'CERFI, Desire,
 And The Gene-alogy Of Public Facilities'; 'Schizoanalysis And City' By
-Helena Mattsson; 'The Urban Mental Hospital And The State of Research'
+[[Helena Mattsson]]; 'The Urban Mental Hospital And The State of Research'
 By Meike Schalk; 'Nietzsche, Foucault, And Genealogy' By Brian Manning
 Delaney; 'The First Discussions, First Tentative Efforts: Is The City
 A Force Of Production, Or A Force Of Anti-production? Despite Its
@@ -413,7 +413,7 @@ passage de témoin.' \[which allowed the arrangement of a passing of
 the baton?\].
 
 Liane then refers slightly obscurely to an 'invitation' from
-[[Fernand Braudel| Fernand **Braudel**]] (see dossier on historians): 'Lorsque
+[[Braudel| Fernand **Braudel**]] (see dossier on historians): 'Lorsque
 Fernand Braudel invite, dans les années 1970, M. Foucault, G. Deleuze,
 F. Guattari, [[Pierre Bourdieu| P. Bourdieu]], [[Maurice Godelier| M. Godelier]] et
 quelques « jeunes » du CERFI, Godelier est laissé seul par Bourdieu
@@ -559,12 +559,12 @@ which hides a lack of material reality and historicity. In Braudel as
 well, the authors say, the town/city is used as a 'territorial'
 stand-in/substitute for capital. This 'process of substitution' is
 linked to the 'mechanisms of representation itself'. The authors say
-that like Mumford and Braudel they are caught in the same 'unconscious
-rules' which flatten everything on the same homogeneous surface of
-representation. In other words, everything is already territorialised.
-They are not thinking at the level of flows (this seems to me the
-implication) -- 'la dimension territorial fait partie des mécanismes
-de la représentation'.
+that like [[Mumford]] and Braudel they are caught in the same
+'unconscious rules' which flatten everything on the same homogeneous
+surface of representation. In other words, everything is already
+territorialised. They are not thinking at the level of flows (this
+seems to me the implication) -- 'la dimension territorial fait partie
+des mécanismes de la représentation'.
 
 There is a Foucauldian and a Deleuze-Guattarian impulse here, although
 perhaps more of the former -- to move away from representations and
@@ -597,9 +597,9 @@ labour btw. Industrial and agricultural work.
     architecture. Taught at Vincennes from 1970.
 
 [^2]: Charter of Athens: 1933 document by Le Corbusier deriving from
-    4^th^ congress of CIAM (Congres internationale de l'architecture
+    4th congress of CIAM (Congres internationale de l'architecture
     modern), 1933 which took place on board a ship from Marseille to
-    Athens. See film by Moholy-Nagy commissioned by Seigfreid Giedion,
+    Athens. See film by Moholy-Nagy commissioned by [[Seigfreid Giedion]],
     'Architecture Congress', on Youtube.
 
 [^3]: In passing, when looking up 'Michelle Perrot, CERFI', this
