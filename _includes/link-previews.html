@@ -37,9 +37,9 @@
   var tooltipContent = document.getElementById('tooltip-content')
 
   function hideTooltip() {
-    opacityTimeout = setTimeout(function() {
+    opacityTimeout = setTimeout(() => {
       tooltipWrapper.style.opacity = 0;
-      contentTimeout = setTimeout(function() {
+      contentTimeout = setTimeout(() => {
         tooltipContent.innerHTML = '';
         tooltipWrapper.style.display = 'none';
       }, transitionDurationMs + 1);
@@ -78,7 +78,7 @@
 		  backlinks.forEach(backlink => {
 		      const backlinkHref = backlink.href // URI of backlink
 		      if ( backlinkHref !== window.location.href && !backlinkHref.endsWith(elemContext) ) {
-			  tooltipContentHtml += "<li>" + backlink.outerHTML + "</li>";
+			  tooltipContentHtml += `<li>${backlink.outerHTML}</li>`;
 		      }
 		  })
 
