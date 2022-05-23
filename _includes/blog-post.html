@@ -4,12 +4,12 @@
 	{{ note.date | date_to_long_string:  "ordinal" }}
     </time>
 
-    <div id="notes-entry-container">
-	<content class="excerpt">
-	    {{ note.content }}
-	    <p class="revert"><a class="bold" href="{{ note.url }}">Read more...</a></p>
-	</content>
-
-    </div>
+  <div id="notes-entry-container">
+    <content class="excerpt">
+      {{ note.content }}
+      <p class="revert">
+        <a class="bold" href="{{ note.url }}">Read more...</a>
+      </p>
+    </content>
+  </div>
 </article>
-
