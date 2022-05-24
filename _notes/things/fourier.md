@@ -1,0 +1,4 @@
+---
+title: "Fourier"
+type: "person"
+---

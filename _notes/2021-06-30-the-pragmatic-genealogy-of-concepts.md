@@ -4,7 +4,7 @@ title: "The Pragmatic Genealogy of Concepts: Starting Points"
 type: blog
 ---
 
-Having met up with Co-I Susana Caló in London last week to talk about
+Having met up with Co-I [[Susana Caló]] in London last week to talk about
 the project -- first face to face meeting for at least a year! -- I
 started ad hoc research and reconnoitring the territory around Issue 13
 of *Recherches*, which bears the title *Généalogie du capital: 1. Les
@@ -207,7 +207,7 @@ Francoise (2): mentions:
 
 - Ariane (COTLENKO?)
 
-ANNE (2) mentions:
+Anne (2) mentions:
 
 - Marie Therese (VERNET-STRAGIOTTI)
 

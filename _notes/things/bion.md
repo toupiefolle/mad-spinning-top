@@ -1,0 +1,4 @@
+---
+title: "Bion"
+type: "person"
+---

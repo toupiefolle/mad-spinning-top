@@ -78,8 +78,8 @@ features of and around the work of the Genealogy group of CERFI. As part
 of the project we will also engage in a dialogue series with researchers
 whose work intersects with this research and a translation worlshops.
 
-The project's researchers are Dr Susana Caló and Professor Patrick
-ffrench who started working together after sharing an interest in
+The project's researchers are [[Dr Susana Caló]] and [[Professor Patrick ffrench]] 
+who started working together after sharing an interest in
 experimenting with collective practices of research. Their long-term
 project is to write about what they call the Social Life of Concepts in
 the case of post-war French thought.
@@ -87,7 +87,7 @@ the case of post-war French thought.
 In April 2022, they were joined by a research assistant, the brilliant
 Dr Daniel Nemenyi, who is leading the website design as a research tool.
 
-**Dr. Susana Caló** is a researcher in post-war histories of psychiatry,
+**[[Dr. Susana Caló]]** is a researcher in post-war histories of psychiatry,
 semiotics, and social movements. She has published and presented widely
 on the Institutional Psychotherapy movement, with a focus on linking
 institutional analysis to broader militant and activist contexts. Her
@@ -116,7 +116,7 @@ She is currently working on the book's project titled 'CERFI. Militant
 Analysis and Institutional Programming', forthcoming with Minor
 Compositions.
 
-**Professor Patrick ffrench** is Professor of French and former Vice
+**[[Professor Patrick ffrench]]** is Professor of French and former Vice
 Dean (Research) at King's College. He wrote his phd on the French
 literary and theoretical journal Tel Quel, in 1993, under the
 supervision of Professor Annette Lavers at the University College

@@ -1,4 +1,4 @@
 ---
-title: "Nicole Robert Linhart"
+title: "Nicole Linhart"
 type: "person"
 ---
