@@ -1,4 +1,4 @@
 ---
-title: "Francoise Lévy"
+title: "Françoise Lévy"
 type: "person"
 ---
