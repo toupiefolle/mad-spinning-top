@@ -550,7 +550,7 @@ It is also interesting that the beginning of Chapter Two involves a
 kind of auto-critique on the part of CERFI of their own conceptual
 moves in Chapter One; the concept of the city has dissolved itself,
 and they see it now functioning as a displacement and condensation
-(classic Freudian mechanisms of the unconscious or more specifically
+(classic [[Sigmund Freud|Freudian]] mechanisms of the unconscious or more specifically
 of the dreamwork), standing in for collective equipment, and
 collecting to itself all sorts of heterogeneous material. A
 psychoanalytic approach is adopted here which suggests that the
@@ -573,8 +573,7 @@ by Foucault in the 'Nietzsche, Genealogy, History' essay. One question
 to explore here is whether there is a conceptual tension between the
 Foucauldian 'genealogical' impulse and the Deleuze-Guattari emphasis
 on 'territory'; there are two overlapping vocabularies at work here,
-symptomatic of the different impulses within the CERFI team, as Anne
-Querrien set out in the first part.
+symptomatic of the different impulses within the CERFI team, as [[Anne Querrien]] set out in the first part.
 
 \[NB. The point above -- that 'collective equipment' is not a term
 with much currency in AO -- points me twds *Lignes de fuite*, ed. by
@@ -583,7 +582,7 @@ included there, 'Assujetissements sémiotique et équipments collectifs'
 was drated by Guattari in late 1979 as a research report submitted to
 the Ministère de l'Équipment for CERFI. See later.\]
 
-The second part brings us to Marx. The city is part of the pairing
+The second part brings us to [[Marx]]. The city is part of the pairing
 town/country. Reference to the *Communist Mainfesto* in which 'the
 bourgeoisie subjects the country to the town/city'. The emergence of
 the city as the motor of history. CERFI says that they will trace the
@@ -593,15 +592,15 @@ agricultural work, on the other. The city/country opposition is thus
 not specific to their spaces, but rather a result of a division of
 labour btw. Industrial and agricultural work.
 
-[^1]: Françoise Choay -- historian or theories or urbanism and
+[^1]: [[Françoise Choay]] -- historian or theories or urbanism and
     architecture. Taught at Vincennes from 1970.
 
-[^2]: Charter of Athens: 1933 document by Le Corbusier deriving from
+[^2]: Charter of Athens: 1933 document by [[Le Corbusier]] deriving from
     4th congress of CIAM (Congres internationale de l'architecture
     modern), 1933 which took place on board a ship from Marseille to
-    Athens. See film by Moholy-Nagy commissioned by [[Seigfreid Giedion]],
+    Athens. See film by [[Moholy-Nagy]] commissioned by [[Seigfreid Giedion]],
     'Architecture Congress', on Youtube.
 
-[^3]: In passing, when looking up 'Michelle Perrot, CERFI', this
+[^3]: In passing, when looking up '[[Michelle Perrot]], CERFI', this
     [link](https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/consultation/ir/consultationIR.action?irId=FRAN_IR_053681)
     to an archival source.

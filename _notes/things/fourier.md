@@ -1,4 +1,4 @@
 ---
-title: "Fourier"
+title: "Charles Fourier"
 type: "person"
 ---

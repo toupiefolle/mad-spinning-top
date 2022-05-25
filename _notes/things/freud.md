@@ -1,4 +1,4 @@
 ---
-title: "Mark McTest"
+title: "Sigmund Freud"
 type: "person"
 ---

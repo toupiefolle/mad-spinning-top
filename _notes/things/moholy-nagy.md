@@ -1,4 +1,4 @@
 ---
-title: "Moholy-Nagy"
+title: "László Moholy-Nagy"
 type: "person"
 ---

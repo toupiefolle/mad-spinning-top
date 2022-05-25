@@ -1,4 +1,4 @@
 ---
-title: "Bion"
+title: "Wilfred Bion"
 type: "person"
 ---
