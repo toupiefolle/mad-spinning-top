@@ -60,8 +60,8 @@ d'enfance*);
 
 R1 mentions a 'Commission de Pédagogie Institutionelle' among the groups
 affiliated to FGERI. R2 mentions a 'Groupe d'Education thérapeutique',
-directed by [[Fernand Oury]] and a 'stage pédagogique' involving [[Deligny]], F.
-Oury, [[Rostain|Michel Rostain(g)]], [[Prisca Bachelet]]..., a 'Club pédagogique';
+directed by [[Fernand Oury]] and a 'stage pédagogique' involving [[Deligny]], [[Fernand Oury|F. Oury]],
+[[Rostain|Michel Rostain(g)]], [[Prisca Bachelet]]..., a 'Club pédagogique';
 
 N.B. that the thematics of psychiatry, 'alienation' and childhood
 overlap in Deligny's work, since he is pioneering in the treatment of

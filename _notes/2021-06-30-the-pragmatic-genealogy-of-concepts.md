@@ -59,7 +59,7 @@ and [[Michel Rostain]] (key members of the CERFI 'mafia' as they were
 called) had set up and lived -- of the Front homosexuel d'action
 révolutionnaire (FHAR), or a delegation thereof. The 'official'
 history, i.e the one recounted by Dosse which tends to highlight
-individuals, says that [[Guy Hocquenguem]] arrived at CEFRI having
+individuals, says that [[Guy Hocquenghem]] arrived at CEFRI having
 read *Anti-Oedipe* -- which apparently provided the theory for the
 movement ('_c'est mon livre_')- and asked to take over an issue of
 *Recherches* for FHAR. The issue did appear as Issue 12 (thus one
