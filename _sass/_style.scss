@@ -44,6 +44,16 @@ img {
   border-radius: $border-radius;
 }
 
+p,
+blockquote,
+li,
+h1,
+h2,
+h3,
+h4 {
+    max-width: 75ch;
+}
+
 blockquote {
   padding: 1.5em;
   margin: 0;
