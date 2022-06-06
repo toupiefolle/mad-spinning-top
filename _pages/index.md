@@ -1,6 +1,6 @@
 ---
-layout: plain
-title: default
+layout: default
+title: Mad Spinning Top
 id: home
 permalink: /
 ---
@@ -22,4 +22,3 @@ permalink: /
 
 Enter via our [blog]({% link blog.md %}) or list of [people]({% link _pages/people.md %}).
 
-{% include notes_graph.html %}
