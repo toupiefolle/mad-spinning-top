@@ -1,7 +1,7 @@
 <article class="bloglink" target="{{ note.url }}">
   <h3><a class="internal-link" href="{{ note.url }}">{{ note.title }}</a></h3>
   <time datetime="{{ note.date | date_to_xmlschema }}">
-    {{ note.date | date: "%A %e %B %Y" }}
+    {{ note.date | date: "%e %B %Y" }}
   </time>
 
   <div id="notes-entry-container">
