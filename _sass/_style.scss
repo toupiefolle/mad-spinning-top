@@ -120,21 +120,6 @@ footer ul li:not(:last-child) {
     margin-left: auto;
 }
 
-
-
-#notes-entry-container {
-  display: grid;
-  grid-gap: 2em;
-  grid-template-areas:
-    "content"
-    "side";
-
-  @media (min-width: 700px) {
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: "content side";
-  }
-}
-
 .bold {
     font-weight: bold;
 }
