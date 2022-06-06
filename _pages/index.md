@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Mad Spinning Top
 id: home
 permalink: /
@@ -15,10 +15,9 @@ permalink: /
  title The Genealogy of Capital: the Equipments of Power.
  
  These pages offer an account of a research project focused on
- Recherches 13, including a focus on the conceptual apparatuses it
+ *Recherches* 13, including a focus on the conceptual apparatuses it
  deployed, the multiple contexts surrounding the issue, and the
- research process involved. For more information see our [about
- page]({% link _pages/about.md %}).
-
-Enter via our [blog]({% link blog.md %}) or list of [people]({% link _pages/people.md %}).
-
+ research process involved. 
+ 
+ For more information see our [about page]({% link _pages/about.md
+ %}).
