@@ -133,6 +133,10 @@ footer ul li:not(:last-child) {
     font-weight: bold;
 }
 
+.hide {
+    display: none;
+}
+
 .backlink-box {
   background: $color-box-background;
   padding: 1em;
@@ -215,4 +219,21 @@ code {
     // more than $excerpt-length em's or a's ), manually unset
     // anything we did to them.
     display: revert;
+}
+
+content a.wikilink {
+    border-color: #8b88e6;
+    background-color: #efefff;
+}
+
+#tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: absolute;
+    overflow: hidden;
+    width: 400px;
+    max-height: 300px;
+    font-size: 0.8em;
 }

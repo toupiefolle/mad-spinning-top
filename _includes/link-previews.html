@@ -1,23 +1,4 @@
 <!-- That file is not particularly elegant. This will need a refactor at some point. -->
-<style>
-  content a.wikilink {
-    border-color: #8b88e6;
-    background-color: #efefff;
-  }
-
-  #tooltip-wrapper {
-    background: white;
-    padding: 1em;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    position: absolute;
-    overflow: hidden;
-    width: 400px;
-    max-height: 300px;
-    font-size: 0.8em;
-  }
-
-</style>
 
 <iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
 </iframe>
@@ -49,7 +30,8 @@
 
       if (event.target.host === window.location.host) {
 	  iframe.src = event.target.href
-	  iframe.onload = function() {
+		  iframe.onload = function() {
+			  tooltipContent.classList.remove("hide");
               tooltipContentHtml = '';
 	      tooltipContentHtml += '<p><span class="bold">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</span>';
 
