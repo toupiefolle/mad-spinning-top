@@ -7,7 +7,9 @@ type: blog
 Copying [[Stuart Elden]]'s blog style, but this is the pile of books
 on my table:
 
+<div class="gallery">
 <img loading="lazy" src="/assets/img/2021-07-09-books.jpg">
+</div>
 
 So, I read Chapter 1 -- 'La ville-ordinateur', the 'intervention
 militante' from [[Querrien|Anne (Querrien)]], and the discussion with
