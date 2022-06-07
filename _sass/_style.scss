@@ -133,10 +133,6 @@ footer ul li:not(:last-child) {
     font-weight: bold;
 }
 
-.hide {
-    display: none;
-}
-
 article.bloglink h3 {
     font-size: 1.6em;
 }
@@ -151,6 +147,18 @@ article.bloglink:not(:last-child) {
   border-radius: $border-radius;
 }
 
+#backlink-wrapper {
+    position: sticky;
+    top: 10px;
+    background: white;
+}
+
+button {
+    float: right;
+    margin-left: 10px;
+	   
+}
+
 @media(min-width: 640px) {
     .grid-main-sidebar {
 	display: grid;
@@ -158,20 +166,23 @@ article.bloglink:not(:last-child) {
 	grid-template-columns: minmax(25rem,1fr) minmax(12rem, 25rem);
 	grid-gap: 20px;
     }
-}
 
-.notes-entry-container content {
-    grid-area: main;
-}
+    .notes-entry-container content {
+	grid-area: main;
+    }
 
-#backlink-wrapper {
-    grid-area: backlinks;
-    font-size: 0.8em;
+    #backlink-wrapper {
+	position: static;
+	grid-area: backlinks;
+	font-size: 0.8em;
+    }
 }
 
 #backlink-content {
+    display: none;
     padding: 10px 20px;
     border: 1px solid #bebebe;
+    box-shadow: #cdcdcd8f 3px 3px 1px;
 }
 
 .notes-entry-container .mentioned-in {

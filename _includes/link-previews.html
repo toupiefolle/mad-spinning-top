@@ -4,107 +4,120 @@
 </iframe>
 
 <script>
-  var opacityTimeout;
-  var contentTimeout;
-  var transitionDurationMs = 100;
+ var opacityTimeout;
+ var contentTimeout;
+ var transitionDurationMs = 100;
 
-  var iframe = document.getElementById('link-preview-iframe')
-  var tooltipWrapper = document.getElementById('backlink-wrapper')
-  var tooltipContent = document.getElementById('backlink-content')
+ var iframe = document.getElementById('link-preview-iframe')
+ var tooltipWrapper = document.getElementById('backlink-wrapper')
+ var tooltipContent = document.getElementById('backlink-content')
+ const close = document.getElementById('close');
+
+ function openBacklinkBox() {
+	 document.getElementById("backlink-content").style.display = "block";
+ }
+
+ function closeBacklinkBox() {
+	 document.getElementById("backlink-content").style.display = "none";
+ }
  
-  function hideTooltip() {
-    opacityTimeout = setTimeout(() => {
-      tooltipWrapper.style.opacity = 0;
-      contentTimeout = setTimeout(() => {
-        tooltipContent.innerHTML = '';
-        tooltipWrapper.style.display = 'none';
-      }, transitionDurationMs + 1);
-    }, transitionDurationMs)
-  }
+ function hideTooltip() {
+     opacityTimeout = setTimeout(() => {
+		 tooltipWrapper.style.opacity = 0;
+		 contentTimeout = setTimeout(() => {
+			 tooltipContent.innerHTML = '';
+			 tooltipWrapper.style.display = 'none';
+		 }, transitionDurationMs + 1);
+     }, transitionDurationMs)
+ }
 
-  function showTooltip(event) {
-    var elem = event.target;
-    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
-    var top = window.pageYOffset || document.documentElement.scrollTop;
-      const showAllBacklinks = elem.classList.contains("showallbacklinks");
+ function showTooltip(event) {
+     var elem = event.target;
+     var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+     var top = window.pageYOffset || document.documentElement.scrollTop;
+     const showAllBacklinks = elem.classList.contains("showallbacklinks");
 
-	  elem.addEventListener('click', event => {
-		  event.preventDefault();
-	  })
+     if (event.target.host === window.location.host) {
+		 iframe.src = event.target.href
+		 iframe.onload = function() {
+			 openBacklinkBox();
+             tooltipContentHtml = '';
+			 const name = iframe.contentWindow.document.querySelector('h1').innerHTML;
+			 const nameSlug = name.toLowerCase().replace(/ /g, '-');
+			 tooltipContentHtml += '<button id="closeBacklinkBox" name="close" onclick="closeBacklinkBox()">X</button>';
+			 tooltipContentHtml += `<heading><a href="{{ site.baseurl }}/people/#${nameSlug}" class="bold">${name}</a>`;
 
-      if (event.target.host === window.location.host) {
-	  iframe.src = event.target.href
-		  iframe.onload = function() {
-			  tooltipContent.classList.remove("hide");
-              tooltipContentHtml = '';
-			  const name = iframe.contentWindow.document.querySelector('h1').innerHTML;
-			  const nameSlug = name.toLowerCase().replace(/ /g, '-');
-			  tooltipContentHtml += `<heading><a href="{{ site.baseurl }}/people/#${nameSlug}" class="bold">${name}</a>`;
+			 /// Let's start adding backlinks into tooltip
 
-			  /// Let's start adding backlinks into tooltip
+			 // Store backlinks
+			 const backlinks = iframe.contentWindow.document.querySelectorAll('.backlink-box a');
 
-			  // Store backlinks
-			  const backlinks = iframe.contentWindow.document.querySelectorAll('.backlink-box a');
+			 if ( backlinks.length <= 1 && !showAllBacklinks ) {
+				 /* If there's only one (or somehow less) backlinks
+					then that means the only link to this item is the
+					one it' currently on */
+				 tooltipContentHtml += ' only mentioned in this post.</heading>';
+			 } else {
+				 /* We don't want to include backlinks to current
+					post, so find out what the parent post is. */
+				 const elemContext = elem.closest(".bloglink")?.attributes.target.value ?? "n/a";
 
-	      if ( backlinks.length <= 1 && !showAllBacklinks ) {
-		  /* If there's only one (or somehow less) backlinks
-		     then that means the only link to this item is the
-		     one it' currently on */
-		  tooltipContentHtml += ' is only referenced in this post.</heading>';
-	      } else {
-		  /* We don't want to include backlinks to current
-		  post, so find out what the parent post is. */
-		  const elemContext = elem.closest(".bloglink")?.attributes.target.value ?? "n/a";
+				 tooltipContentHtml += ' also mentioned in:</heading>'
+				 tooltipContentHtml += "<ul>";
+				 backlinks.forEach(backlink => {
+					 const backlinkHref = backlink.href // URI of backlink
+					 if ( backlinkHref !== window.location.href && !backlinkHref.endsWith(elemContext) ) {
+						 tooltipContentHtml += `<li>${backlink.outerHTML}</li>`;
+					 }
+				 })
 
-		  tooltipContentHtml += ' is also referenced in:</heading>'
-		  tooltipContentHtml += "<ul>";
-		  backlinks.forEach(backlink => {
-		      const backlinkHref = backlink.href // URI of backlink
-		      if ( backlinkHref !== window.location.href && !backlinkHref.endsWith(elemContext) ) {
-			  tooltipContentHtml += `<li>${backlink.outerHTML}</li>`;
-		      }
-		  })
+				 tooltipContentHtml += "</ul>";
+			 }
 
-		  tooltipContentHtml += "</ul>";
-	      }
+			 // Insert content into tooltip
 
-	      // Insert content into tooltip
+             tooltipContent.innerHTML = tooltipContentHtml
 
-              tooltipContent.innerHTML = tooltipContentHtml
-
-              tooltipWrapper.style.display = 'block';
-              setTimeout(function() {
-          tooltipWrapper.style.opacity = 1;
-        }, 1)
-      }
-
-      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
-      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
-          tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
-      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
-          tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
-      }
-
-      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
-          tooltipWrapper.style.left = "10px";
-      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
-          tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
-      }
-    }
-  }
+             tooltipWrapper.style.display = 'block';
+             setTimeout(function() {
+				 tooltipWrapper.style.opacity = 1;
+			 }, 1)
+		 }
+     }
+ }
 
  function setupListeners(linkElement) {
-    linkElement.addEventListener('mouseenter', function(event) {
-      clearTimeout(opacityTimeout);
-      clearTimeout(contentTimeout);
-      showTooltip(event);
-    });
 
-    tooltipWrapper.addEventListener('mouseenter', function(event) {
-      clearTimeout(opacityTimeout);
-      clearTimeout(contentTimeout);
-    });
-  }
+	 linkElement.addEventListener('click', event => {
+		 event.preventDefault();
+		 clearTimeout(opacityTimeout);
+		 clearTimeout(contentTimeout);
+		 showTooltip(event);
+	 })
+
+     linkElement.addEventListener('mouseenter', function(event) {
+		 clearTimeout(opacityTimeout);
+		 clearTimeout(contentTimeout);
+		 showTooltip(event);
+     });
+
+     linkElement.addEventListener('touchstart', function(event) {
+		 clearTimeout(opacityTimeout);
+		 clearTimeout(contentTimeout);
+		 showTooltip(event);
+     });
+
+     tooltipWrapper.addEventListener('mouseenter', function(event) {
+		 clearTimeout(opacityTimeout);
+		 clearTimeout(contentTimeout);
+     });
+
+	 tooltipWrapper.addEventListener('touchstart', function(event) {
+		 clearTimeout(opacityTimeout);
+		 clearTimeout(contentTimeout);
+	 });
+ }
 
  document.querySelectorAll('{{ include.wrapperQuerySelector }} a.wikilink').forEach(setupListeners);
+
 </script>
