@@ -140,7 +140,7 @@ footer ul li:not(:last-child) {
 }
 
 @media(min-width: 640px) {
-    .notes-entry-container {
+    .grid-main-sidebar {
 	display: grid;
 	grid-template-areas: "main backlinks"
 			     "mentions mentions";
@@ -160,7 +160,7 @@ footer ul li:not(:last-child) {
 
 #backlink-content {
     padding: 10px 20px;
-    border: 1px solid black;
+    border: 1px solid #bebebe;
 }
 
 .notes-entry-container .mentioned-in {

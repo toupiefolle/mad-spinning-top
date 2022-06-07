@@ -1,7 +1,0 @@
-<ol reversed>
-{% for note in site.notes reversed %}
-{% if note.type == 'blog' %}
-    <li><a href="{{ note.url }}">{{ note.title }}</a>  ({{ note.date | date_to_long_string: "ordinal" }})</li>
-{% endif %}
-{% endfor %}
-</ol>
