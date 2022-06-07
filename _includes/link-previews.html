@@ -19,11 +19,6 @@
 
 </style>
 
-<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
-  <div id='tooltip-content'>
-  </div>
-</div>
-
 <iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
 </iframe>
 
@@ -33,9 +28,9 @@
   var transitionDurationMs = 100;
 
   var iframe = document.getElementById('link-preview-iframe')
-  var tooltipWrapper = document.getElementById('tooltip-wrapper')
-  var tooltipContent = document.getElementById('tooltip-content')
-
+  var tooltipWrapper = document.getElementById('backlink-wrapper')
+  var tooltipContent = document.getElementById('backlink-content')
+ 
   function hideTooltip() {
     opacityTimeout = setTimeout(() => {
       tooltipWrapper.style.opacity = 0;
@@ -111,23 +106,6 @@
   }
 
  function setupListeners(linkElement) {
-
-     linkElement.addEventListener('mouseleave', function(_event) {
-	 hideTooltip();
-    });
-
-    tooltipWrapper.addEventListener('mouseleave', function(_event) {
-      hideTooltip();
-    });
-
-    linkElement.addEventListener('touchend', function(_event) {
-      hideTooltip();
-    });
-
-    tooltipWrapper.addEventListener('touchend', function(_event) {
-      hideTooltip();
-    });
-
     linkElement.addEventListener('mouseenter', function(event) {
       clearTimeout(opacityTimeout);
       clearTimeout(contentTimeout);

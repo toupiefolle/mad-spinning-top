@@ -13,7 +13,6 @@ body {
   margin: 0 auto;
   line-height: 1.7;
   padding: 4vh 6vw;
-  overflow-x: hidden;
   color: $color-text;
   font-size: 1rem;
   max-width: 63em;
@@ -138,6 +137,40 @@ footer ul li:not(:last-child) {
   background: $color-box-background;
   padding: 1em;
   border-radius: $border-radius;
+}
+
+@media(min-width: 640px) {
+    .notes-entry-container {
+	display: grid;
+	grid-template-areas: "main backlinks"
+			     "mentions mentions";
+	grid-template-columns: minmax(25rem,1fr) minmax(12rem, 25rem);
+	grid-gap: 20px;
+    }
+}
+
+.notes-entry-container content {
+    grid-area: main;
+}
+
+#backlink-wrapper {
+    grid-area: backlinks;
+    font-size: 0.8em;
+}
+
+#backlink-content {
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+.notes-entry-container .mentioned-in {
+    grid-area: mentions;
+}
+
+.sticky {
+    position: sticky;
+    top: 20px;
+
 }
 
 code {
