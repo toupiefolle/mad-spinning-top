@@ -137,6 +137,14 @@ footer ul li:not(:last-child) {
     display: none;
 }
 
+article.bloglink h3 {
+    font-size: 1.6em;
+}
+
+article.bloglink:not(:last-child) {
+    margin-bottom: 4em;
+}
+
 .backlink-box {
   background: $color-box-background;
   padding: 1em;
