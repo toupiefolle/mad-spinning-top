@@ -19,11 +19,7 @@ layout: default
 
 <div class="grid-main-sidebar">
 
-	<aside id="backlink-wrapper">
-		<div id="backlink-content" class="sticky">
-		<!-- Backlinks to go here -->
-		</div>
-	</aside>
+	{% include backlink-box.html %}
 
 	<div>
 

@@ -26,31 +26,37 @@
     var elem = event.target;
     var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
     var top = window.pageYOffset || document.documentElement.scrollTop;
-    const showAllBacklinks = elem.classList.contains("showallbacklinks");
+      const showAllBacklinks = elem.classList.contains("showallbacklinks");
+
+	  elem.addEventListener('click', event => {
+		  event.preventDefault();
+	  })
 
       if (event.target.host === window.location.host) {
 	  iframe.src = event.target.href
 		  iframe.onload = function() {
 			  tooltipContent.classList.remove("hide");
               tooltipContentHtml = '';
-	      tooltipContentHtml += '<p><span class="bold">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</span>';
+			  const name = iframe.contentWindow.document.querySelector('h1').innerHTML;
+			  const nameSlug = name.toLowerCase().replace(/ /g, '-');
+			  tooltipContentHtml += `<heading><a href="/people/#${nameSlug}" class="bold">${name}</a>`;
 
-	      /// Let's start adding backlinks into tooltip
+			  /// Let's start adding backlinks into tooltip
 
-	      // Store backlinks
-	      const backlinks = iframe.contentWindow.document.querySelectorAll('.backlink-box a');
+			  // Store backlinks
+			  const backlinks = iframe.contentWindow.document.querySelectorAll('.backlink-box a');
 
 	      if ( backlinks.length <= 1 && !showAllBacklinks ) {
 		  /* If there's only one (or somehow less) backlinks
 		     then that means the only link to this item is the
 		     one it' currently on */
-		  tooltipContentHtml += ' is only referenced in this post.</p>';
+		  tooltipContentHtml += ' is only referenced in this post.</heading>';
 	      } else {
 		  /* We don't want to include backlinks to current
 		  post, so find out what the parent post is. */
 		  const elemContext = elem.closest(".bloglink")?.attributes.target.value ?? "n/a";
 
-		  tooltipContentHtml += ' is also referenced in:</p>'
+		  tooltipContentHtml += ' is also referenced in:</heading>'
 		  tooltipContentHtml += "<ul>";
 		  backlinks.forEach(backlink => {
 		      const backlinkHref = backlink.href // URI of backlink

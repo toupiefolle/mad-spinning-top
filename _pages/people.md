@@ -9,7 +9,7 @@ permalink: /people
 <ul>
     {% for note in site.notes %}
     {% if note.type == 'person' %}
-    <li class="bold">{{ note.title }}</li>
+    <li class="bold" id="{{note.title | slugify }}">{{ note.title }}</li>
 		<ul>
 		{% for backlink in note.backlinks %}
 			<li><a href="{{ backlink.url }}">{{ backlink.title }}</a> ({{ backlink.date | date_to_long_string: "ordinal" }})</li>
