@@ -39,7 +39,7 @@
               tooltipContentHtml = '';
 			  const name = iframe.contentWindow.document.querySelector('h1').innerHTML;
 			  const nameSlug = name.toLowerCase().replace(/ /g, '-');
-			  tooltipContentHtml += `<heading><a href="/people/#${nameSlug}" class="bold">${name}</a>`;
+			  tooltipContentHtml += `<heading><a href="{{ site.baseurl }}/people/#${nameSlug}" class="bold">${name}</a>`;
 
 			  /// Let's start adding backlinks into tooltip
 
