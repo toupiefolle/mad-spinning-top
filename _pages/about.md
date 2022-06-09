@@ -145,7 +145,7 @@ Research in Modern European Philosophy (CRMEP) Kingston University,
 2019) for publication. He is a member of the *[Radical
 Philosophy](https://www.radicalphilosophy.com)* editorial collective,
 a visiting researcher at King's College London Department of Digital
-Humanities, and is an [independent web
+Humanities, and an [independent web
 developer](https://danielnemenyi.net/). He built this website.
 
 **Contact:** latoupiefolle.org@gmail.com
