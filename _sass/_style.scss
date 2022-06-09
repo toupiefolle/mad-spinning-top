@@ -158,11 +158,11 @@ button {
 	   
 }
 
-@media(min-width: 640px) {
+@media(min-width: 740px) {
     .grid-main-sidebar {
 	display: grid;
 	grid-template-areas: "main backlinks";
-	grid-template-columns: minmax(25rem,1fr) minmax(12rem, 25rem);
+	grid-template-columns: minmax(25rem,2fr) minmax(12rem, 1fr);
 	grid-gap: 20px;
     }
 
