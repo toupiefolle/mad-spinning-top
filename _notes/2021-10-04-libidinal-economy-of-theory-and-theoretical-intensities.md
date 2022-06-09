@@ -34,9 +34,9 @@ has detailed discussion of R13. Have downloaded it from Stuart's blog
 page and put it in the 'Documents' folder. It looks indispensable. It
 looks like it is included in Elden's *The Birth of Power*.
 
-Last week - borrowed [[Lyotard|JF Lyotard]]'s *Économie libidinale* -- from 1974 -
-from the Maughan library. It has no index, but the usual quick leafing
-turned up a reference to Fourquet's R14, p. 123., which relates to the
-sense of guilt and *ressentiment* of the (Marxist) militant ideal. There
-is extensive discussion of Klossowski, including to *La Monnaie
-vivante*, pp. 17-115.
+Last week -- borrowed [[Lyotard|JF Lyotard]]'s *Économie libidinale*
+(1974) from the Maughan library. It has no index, but the usual
+quick leafing turned up a reference to Fourquet's R14, p. 123., which
+relates to the sense of guilt and *ressentiment* of the (Marxist)
+militant ideal. There is extensive discussion of Klossowski, including
+to *La Monnaie vivante*, pp. 17-115.
