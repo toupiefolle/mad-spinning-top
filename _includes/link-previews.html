@@ -79,13 +79,31 @@
              tooltipContent.innerHTML = tooltipContentHtml
 
              tooltipWrapper.style.display = 'block';
-             setTimeout(function() {
-				 tooltipWrapper.style.opacity = 1;
-			 }, 1)
+			 tooltipContent.style.opacity = 1.0;
 		 }
      }
  }
 
+ function fadeToolTip() {
+	 // Fade tooltip when scrolling
+	 let opacity = tooltipContent.style.opacity;
+
+	 if (opacity > 0) {
+		 tooltipContent.style.opacity = opacity - 0.0001;
+	 } else {
+		 tooltipContent.style.display = 'none';
+	 }
+ }
+
+ function unfadeToolTip() {
+	 // Unfade tooltip when hovered over
+	 let opacity = tooltipContent.style.opacity;
+
+	 if (opacity < 1.0 ) {
+		 tooltipContent.style.opacity = 1.0;
+	 }
+ }
+ 
  function setupListeners(linkElement) {
 
 	 linkElement.addEventListener('click', event => {
@@ -95,7 +113,7 @@
 		 showTooltip(event);
 	 })
 
-     linkElement.addEventListener('mouseenter', function(event) {
+     linkElement.addEventListener('click', function(event) {
 		 clearTimeout(opacityTimeout);
 		 clearTimeout(contentTimeout);
 		 showTooltip(event);
@@ -116,6 +134,18 @@
 		 clearTimeout(opacityTimeout);
 		 clearTimeout(contentTimeout);
 	 });
+
+	 window.addEventListener('scroll', () => {
+		 fadeToolTip();
+		 })
+ 
+	 tooltipContent.addEventListener('mouseenter', () => {
+		 unfadeToolTip();
+	 })
+
+	 tooltipContent.addEventListener('touchstart', () => {
+		 unfadeToolTip();
+	 })
  }
 
  document.querySelectorAll('{{ include.wrapperQuerySelector }} a.wikilink').forEach(setupListeners);

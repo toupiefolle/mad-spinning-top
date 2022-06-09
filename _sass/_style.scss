@@ -150,7 +150,6 @@ article.bloglink:not(:last-child) {
 #backlink-wrapper {
     position: sticky;
     top: 10px;
-    background: white;
 }
 
 button {
@@ -183,6 +182,7 @@ button {
     padding: 10px 20px;
     border: 1px solid #bebebe;
     box-shadow: #cdcdcd8f 3px 3px 1px;
+    background: white;
 }
 
 .notes-entry-container .mentioned-in {
