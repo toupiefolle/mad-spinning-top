@@ -215,7 +215,7 @@ Anne (2) mentions:
 
 - Lion (MURARD)
 
-- [[Francoise Lévy|Francoise (LÉVY)]]
+- [[Françoise Paul-Lévy|Françoise (LÉVY)]]
 
 - [[Christian Hennion|Christian (HENNION)]]
 
