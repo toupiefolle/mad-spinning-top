@@ -10,7 +10,7 @@ It is a [Jekyll](https://jekyllrb.com/) website extended via a customised versio
 
 ## How to update and edit the site
 
-It's relatively straightforward to make edits directly to the live website.  The website is made up of plain text files which anyone who is part of this project can edit here on the Github website, 'commit to master' (explained below). 
+It's relatively straightforward to make edits directly to the live website.  The website is made up of plain text files which anyone who is part of this project can edit here on Github's website.
 
 ### Editting the website
 
