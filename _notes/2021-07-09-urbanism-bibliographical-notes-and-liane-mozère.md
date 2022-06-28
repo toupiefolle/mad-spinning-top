@@ -255,7 +255,7 @@ Guattari. \[Reference to: Liane [Mozère], *Le Printemps des crèches.
 Histoire et analyse d'un mouvement*, L'Harmattan, 1992, which tallies
 with other mentions of the 'groupe crèche' in R13\]. Description of
 CERFI as: 'cette bande liée autant par des convictions que par des
-affects'. Militants one day and the next attending Lacan's seminar on
+affects'. Militants one day and the next attending [[Lacan|Lacan's]] seminar on
 Tuesday. 'Ainsi, évoquer la figure de Michel Foucault qui a assuré la
 direction scientifique des premiers travaux du Centre d'Étude, de
 Recherche et de Formation Institutionnelles (CERFI), groupe de
