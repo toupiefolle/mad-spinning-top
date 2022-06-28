@@ -10,7 +10,7 @@ It is a [Jekyll](https://jekyllrb.com/) website extended via a customised versio
 
 ## How to update and edit the site
 
-It's relatively straightforward to make edits directly to the live website.  The website is made up of plain text files which anyone who is part of this project can edit here on the Github website, 'commit to master' (explained below), and then after a few moments the changes should appear on the live website. 
+It's relatively straightforward to make edits directly to the live website.  The website is made up of plain text files which anyone who is part of this project can edit here on the Github website, 'commit to master' (explained below). 
 
 ### Editting the website
 
@@ -22,9 +22,9 @@ All the blog posts are contained within the folder `_notes`, so click into that.
 
 ![image](https://user-images.githubusercontent.com/8701448/176191043-9757ccfe-2343-4838-814c-0e5239d93732.png)
 
-You should see a version of the blog post, formatted in a basic way.
+Look for the blog post you want to edit in this list. Click into it, and then to edit it click on the pencil icon in the top right of the blog's box.
 
-To edit it, click on the pencil icon in the top right of the blog's box.
+![image](https://user-images.githubusercontent.com/8701448/176214419-f941f846-ec3c-437d-a8f8-476b7a68f658.png)
 
 What you see now is the source code of the blog post. It is formatted
 in a simple plaintext markup language called Markdown, perhaps with a
@@ -45,7 +45,7 @@ following. This is the [front
 matter](https://jekyllrb.com/docs/front-matter/) and it contains
 important metadata about the file, specifically the title and the
 date. You can update the values of the date and title fields, but make
-sure there's a space after the colon (`date: 2021-07-09`), the three
+sure there's a space after the colon (`date: 2021-07-09`), and that the three
 dashes (`---`) are on their own lines with nothing following them, and
 the second of these has a blank line following it.
 
@@ -55,7 +55,6 @@ date: 2021-07-09
 title: "Urbanism, Bibliographical Notes and Liane Mozère"
 type: blog
 ---
-
 ```
 
 ### Body content
@@ -71,12 +70,10 @@ them 50 words long or 5, the system will treat them as a single
 paragraph block until it reaches a blank line.
 
 **Italics** are designated by a single asterisk at the start and end of a
-word or phrase, for example, `was originally a *Tel Quel* lecture from
-1966**.
+word or phrase, for example, `was originally a *Tel Quel* lecture from 1966`. `Command`+`I` (Mac) or `Ctrl`+`I` (Windows/Linux)
 
 **Bold** is designated by two asterisks at the start and end of a word
-or phrase, for example, `in the form of a '**theory of
-intensities**'.**
+or phrase, for example, `in the form of a **theory of intensities**`.
 
 **Name backlinks**, which result in a name being able to be clicked on
 the website for a pop-up box to appear, are designed by:
@@ -93,7 +90,7 @@ the website for a pop-up box to appear, are designed by:
 * `was written by [[Lion Murard|Lion (Murard)]]`
 * `[[Fernand Oury|F. Oury]] on [[Célestin Freinet|Freinet]]`
 
-The name backlinks need a relevant file in the `things/** folder to
+The name backlinks need a relevant file in the `things/` folder to
 link. 
 
 **Bullet list items** are designated by a single dash (`-`) at the
@@ -119,20 +116,26 @@ fullstop and a space.
 2. the composition and reception history of *Anti-Œdipe*, ...
 
 3. the internal politics and micro-history of the *Recherches* people
-``**
-
 ```
+
 **Hyperlinks** to other websites can either be written in Markdown or as an html <a> tag
 (my personal preference).
 
 ```
-HTML: 
-<a href="https://www.kcl.ac.uk/people/patrick-ffrench">KCL page of Patrick ffrench</a>
-
 Markdown:
 [KCL page of Patrick ffrench](https://www.kcl.ac.uk/people/patrick-ffrench) 
+
+HTML: 
+<a href="https://www.kcl.ac.uk/people/patrick-ffrench">KCL page of Patrick ffrench</a>
 ```
 
+### Previewing edits
+  
+Although you can only see what the website looks like after you've commited your changes (below), it's a good idea to check if the Markdown is ok before doing so. Github allows you to preview the processed markdown. Click the Preview button at the top of the edit box.
+  
+![image](https://user-images.githubusercontent.com/8701448/176217005-ce2e6a7a-b279-4cf0-b345-be073764345f.png)
+
+  
 ### Saving (committing) edits
 
 Once you are satisfied with your edits, you need to 'commit' them. To
@@ -190,7 +193,10 @@ title: "Félix Guattari"
 type: "person"
 ---
 ```
-
+  
+## Need help?
+  
+It goes without saying that if you need any help, just get in touch with Daniel!
 
 ## License
 
