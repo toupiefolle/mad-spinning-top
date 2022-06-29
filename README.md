@@ -12,7 +12,7 @@ It is a [Jekyll](https://jekyllrb.com/) website extended via a customised versio
 
 It's relatively straightforward to make edits directly to the live website.  The website is made up of plain text files which anyone who is part of this project can edit here on Github's website.
 
-### Editting the website
+### Editing the website
 
 All the blog posts are contained within the folder `_notes`, so click into that...
 
