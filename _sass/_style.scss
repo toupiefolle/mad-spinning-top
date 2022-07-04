@@ -225,6 +225,18 @@ code {
     gap: 10px;
 }
 
+.timeline-entry {
+    display: grid;
+    grid-template-columns: 10em auto;
+}
+
+.timeline-entry * {
+    font-weight: normal;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+
 /* 
   Extract an excerpt
 */
