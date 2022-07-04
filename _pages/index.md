@@ -19,5 +19,5 @@ permalink: /
  deployed, the multiple contexts surrounding the issue, and the
  research process involved. 
  
- For more information see our [about page]({% link _pages/about.md
+ For more information see our [about page]({% link _notes/about.md
  %}).

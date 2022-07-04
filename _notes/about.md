@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About
 permalink: /about
 ---
@@ -11,7 +10,7 @@ from December 1973, which bears the title *La Généalogie du capital: les
 équipments du pouvoir*. The issue is the result of a working group of
 the organisation CERFI (Centre d'études, de recherches et de formation
 institutionelles), established by French activist, psychiatrist and
-philosopher Félix Guattari in 1965.
+philosopher [[Félix Guattari]] in 1965.
 
 Our interest in *Recherches* 13 and the contexts around it is multiple,
 but may be usefully grouped around the following factors:
@@ -31,15 +30,15 @@ but may be usefully grouped around the following factors:
     symptomatic of a response and a mode of action different from that
     of Maoist groups such as the Gauche proletairienne. Together with
     the next issue of the journal (14), presented as Part 2 of the
-    *Généalogie du capital*, this one written by François Fourquet
+    *Généalogie du capital*, this one written by [[François Fourquet]]
     alone, it proposes a critical analysis of what was referred to as
     the 'militant ideal'.
 
 -   The Genealogy project involves a significant engagement with
     theoretical ideas and concepts drawn from the work of French
-    philosophers Michel Foucault, Gilles Deleuze and Félix Guattari, and
-    to a lesser extent the historian Fernand Braudel (inventor of the
-    *longue durée*), Jean-Paul Sartre and Friedrich Nietzsche. The
+    philosophers [[Michel Foucault]], [[Gilles Deleuze]] and Félix Guattari, and
+    to a lesser extent the historian [[Fernand Braudel]] (inventor of the
+    *longue durée*), [[Jean-Paul Sartre]] and [[Friedrich Nietzsche]]. The
     period in which the project evolved coincided with the composition
     and publication of Deleuze and Guattari's *Anti-Oedipus*, with the
     first years of Michel Foucault's lectures at the Collège de France
@@ -65,27 +64,28 @@ cities, territories and 'équipements collectifs' referred to in
 ## La Toupie Folle
 
 The project's alternative title 'la toupie folle' (the mad spinning top)
-is taken from a description by Marie-Therese Vernet Straggiotti of the
+is taken from a description by [[Marie-Thérèse Vernet-Straggiotti]] of the
 affective and conceptual character of the research in the journal
 itself.
 
 *La toupie folle* **is an experiment in research and writing and the
 work is recorded here as it develops in the making.** The site features
 a regularly updated blog on the process of the research, as well as a
-number of resources such as a Chronology, an Index of Names and of
+number of resources such as a [Chronology]({% link _notes/chronology.md %}), an [Index of Names]({% link _pages/people.md %}) and of
 Concepts as they relate to R13 and a number of 'dossiers' on salient
 features of and around the work of the Genealogy group of CERFI. As part
 of the project we will also engage in a dialogue series with researchers
 whose work intersects with this research and a translation worlshops.
 
-The project's researchers are Dr Susana Caló and Professor Patrick
-ffrench who started working together after sharing an interest in
+The project's researchers are [[Susana Caló|Dr Susana Caló]] and 
+[[Patrick ffrench|Professor Patrick ffrench]] who started working
+together after sharing an interest in
 experimenting with collective practices of research. Their long-term
 project is to write about what they call the Social Life of Concepts
 in the case of post-war French thought.
 
 In April 2022, they were joined by a research assistant, the brilliant
-Dr Daniel Nemenyi, who is leading the website design as a research tool.
+[[Daniel Nemenyi|Dr Daniel Nemenyi]], who is leading the website design as a research tool.
 
 **Dr. Susana Caló** is a researcher in post-war histories of psychiatry,
 semiotics, and social movements. She has published and presented widely
