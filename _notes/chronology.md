@@ -152,7 +152,7 @@ CERFI 'Genealogy' group.**
 
 <div class="timeline-entry">
 	<h2>1967</h2>
-	<p>[[Georges Canguilhem]], ‘Mort de l\‘homme ou épuisement du cogito?’ in <em>Critique</em>, 242 (review of <em>Les Mots et les choses</em>)</p>
+	<p>[[Georges Canguilhem]], ‘Mort de l‘homme ou épuisement du cogito?’ in <em>Critique</em>, 242 (review of <em>Les Mots et les choses</em>)</p>
 </div>
 
 <div class="timeline-entry">
