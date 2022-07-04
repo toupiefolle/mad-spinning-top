@@ -386,7 +386,7 @@ CERFI 'Genealogy' group.**
 </div>
 
 <div class="timeline-entry">
-	<h2>1971 (December 1970 - March 1971)</h2>
+	<h2>1970 (December) - 1971 (March)</h2>
 	<p>Foucault lectures at the Collège de France, ‘Leçons sur la Volonté de savoir’</p>
 </div>
 
