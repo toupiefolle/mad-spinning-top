@@ -154,7 +154,7 @@ collective publication on medical sociology.
 Reduced role of the State, except as police... social assistance
 reduced. The hospital increasingly a space of return to work...
 
-Important reference to [[Jean Claude Polack|J. C. Polack]], *La
+Important reference to [[Jean-Claude Polack|J. C. Polack]], *La
 Médecine du Capital, Maspero, 1972, Cahiers libres 222-23.*
 
 The conclusion to the chapter summarises and interprets: the 'equipment

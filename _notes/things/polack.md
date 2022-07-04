@@ -1,4 +1,4 @@
 ---
-title: "Jean Claude Polack"
+title: "Jean-Claude Polack"
 type: "person"
 ---

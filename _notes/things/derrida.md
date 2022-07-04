@@ -1,0 +1,4 @@
+---
+title: "Derrida"
+type: "person"
+---
