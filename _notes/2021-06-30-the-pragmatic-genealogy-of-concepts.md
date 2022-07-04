@@ -73,7 +73,7 @@ this right now.
 
 So it looks like there are several intersecting micro-histories here:
 
-1\) the history of the policies of the State, specifically of the
+1. the history of the policies of the State, specifically of the
 Ministère de l'Équipment (under various names) vis a vis 'l'aménagement
 du territoire' (I need to look into the lexis here, since 'équipment
 collectif', 'aménagement du territoire' etc bear interesting comparison
@@ -85,12 +85,12 @@ communities as they say). I've asked a relative of mine who was a
 British civil servant if she knows who to ask more about this, but she
 doesn't.
 
-2\) the composition and reception history of *Anti-Œdipe*, which,
+2. the composition and reception history of *Anti-Œdipe*, which,
 together with 1), put CERFI and *Recherches* on the map for any
 post-1968 radical project needing funding or just wanting money
 (parallel with the 1970s/1980s GLC!?).
 
-3\) the internal politics and micro-history of the *Recherches* people
+3. the internal politics and micro-history of the *Recherches* people
 ....
 
 Going too fast here to try to tabulate this... I'm still scoping out the
