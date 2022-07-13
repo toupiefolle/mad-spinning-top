@@ -58,7 +58,7 @@ collective research, especially as driven by an activist agenda oriented
 toward social change, the evacuation of a critical moment in the history
 of French critical theory, and analysis of the way in which concepts are
 deployed in relation to specific elements of the social field, such as
-cities, territories and 'équipements collectifs' referred to in
+cities, territories and 'équipements collectifs' referred to in the
 *Recherches 13* sub-title.
 
 ## La Toupie Folle
@@ -74,8 +74,8 @@ a regularly updated blog on the process of the research, as well as a
 number of resources such as a [Chronology]({% link _notes/chronology.md %}), an [Index of Names]({% link _pages/people.md %}) and of
 Concepts as they relate to R13 and a number of 'dossiers' on salient
 features of and around the work of the Genealogy group of CERFI. As part
-of the project we will also engage in a dialogue series with researchers
-whose work intersects with this research and a translation worlshops.
+of the project we will also engage in a series of dialogues with researchers
+whose work intersects with this research.
 
 The project's researchers are [[Susana Caló|Dr Susana Caló]] and 
 [[Patrick ffrench|Professor Patrick ffrench]] who started working
@@ -112,14 +112,14 @@ found textual and visual archival material. The project received
 support from the Graham Foundation, Royal College of Art and *Het*
 Nieuwe Instituut.
 
-She is currently working on the book's project titled 'CERFI. Militant
+She is currently working on a book project titled 'CERFI. Militant
 Analysis and Institutional Programming', forthcoming with Minor
 Compositions.
 
 **Professor Patrick ffrench** is Professor of French and former Vice
-Dean (Research) at King's College. He wrote his phd on the French
+Dean (Research) at King's College London. He wrote his phd on the French
 literary and theoretical journal Tel Quel, in 1993, under the
-supervision of Professor Annette Lavers at the University College
+supervision of Professor Annette Lavers at University College
 London. As a British Academy Postdoctoral Fellow at University College
 he worked on Georges Bataille and 20th-century French intellectual
 history, before moving to King's College London in 1999. The four books
